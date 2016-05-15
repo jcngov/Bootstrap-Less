@@ -2,34 +2,40 @@
 @linkColor: white;
 @columnHeights: 100px;
 
+.columnStyle {
+  height: @columnHeights;
+  text-align: center;
+  border: 1px solid black;
+}
+
 h1 {
   color: @nice-blue;
   text-align: center;
 }
 
-// a {
-//   font-size: 40px;
-//   @linkColorHover: darken(@linkColor, 15%);
-// }
-
 .col-xs-12 {
-  height: @columnHeights;
   background-color: blue;
-  text-align: center;
+  .columnStyle;
 }
 
 .col-xs-6 {
-  height: @columnHeights;
   background-color: yellow;
-  border: 2px solid black;
-  text-align: center;
+  .columnStyle;
 }
 
 .col-xs-3 {
-  height: @columnHeights;
   background-color: red;
-  border: 2px solid black;
-  text-align: center;
+  .columnStyle;
+}
+
+.col-xs-2 {
+  background-color: green;
+  .columnStyle;
+}
+
+.col-xs-10 {
+  background-color: orange;
+  .columnStyle;
 }
 /*# sourceMappingURL=main.css.map */
 

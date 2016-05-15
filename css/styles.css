@@ -1,22 +1,40 @@
+.columnStyle {
+  height: 100px;
+  text-align: center;
+  border: 1px solid black;
+}
 h1 {
   color: #5B83AD;
   text-align: center;
 }
 .col-xs-12 {
-  height: 100px;
   background-color: blue;
+  height: 100px;
   text-align: center;
+  border: 1px solid black;
 }
 .col-xs-6 {
-  height: 100px;
   background-color: yellow;
-  border: 2px solid black;
+  height: 100px;
   text-align: center;
+  border: 1px solid black;
 }
 .col-xs-3 {
-  height: 100px;
   background-color: red;
-  border: 2px solid black;
+  height: 100px;
   text-align: center;
+  border: 1px solid black;
+}
+.col-xs-2 {
+  background-color: green;
+  height: 100px;
+  text-align: center;
+  border: 1px solid black;
+}
+.col-xs-10 {
+  background-color: orange;
+  height: 100px;
+  text-align: center;
+  border: 1px solid black;
 }
 /*# sourceMappingURL=main.css.map */
